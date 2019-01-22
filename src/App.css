@@ -1,6 +1,8 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  margin-left: 20px;
 }
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -29,4 +31,9 @@
   to {
     transform: rotate(360deg);
   }
+  
 }
+
+.vacations > li {
+  color: blue;
+} 

@@ -1,20 +1,13 @@
 import React from 'react';
+import HeaderContent from './HeaderContent';
+import Main from './Main';
 import Footer from './Footer';
 
 function  MyInfo(){
     return (
         <div className="MyInfo">
-           <nav>
-            <h1>Francis Kiryowa</h1>
-                <ul className="vacations">
-                    <li>Kasese</li>
-                    <li>Kyotera</li>
-                    <li>Mumbasa</li>
-                </ul>
-           </nav>
-           <main>
-
-           </main>
+           <HeaderContent />
+           <Main />
            <Footer />
           
         </div>

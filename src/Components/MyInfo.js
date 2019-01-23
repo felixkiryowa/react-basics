@@ -9,7 +9,6 @@ function  MyInfo(){
            <HeaderContent />
            <Main />
            <Footer />
-          
         </div>
     );
   }

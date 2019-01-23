@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import List from './Components/List';
+// import List from './Components/List';
 import MyInfo from './Components/MyInfo';
+// import Checkboxes from './Components/Checkboxes';
 
 class App extends Component {
   

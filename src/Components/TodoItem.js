@@ -1,11 +1,24 @@
 import React from 'react';
 
 
-function TodoItem() {
+function TodoItem(props) {
    return (
     <div className="todo-item">
-        <input type="checkbox" />
-        <p>Place holder text Here</p>
+        <table style={{width:"200px"}}>
+           <tbody>
+               <tr>
+                    <td>
+                        <input type="checkbox" onChange={
+                            () => console.log('checked')
+                        } checked={props.completed ? true : false} />
+                    </td>
+                    <td>
+                    <p>{props.todo_detail}</p>
+                    </td>
+              </tr>
+           </tbody>
+        </table>
+        
     </div>
    )
 }

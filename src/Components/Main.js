@@ -28,25 +28,37 @@ function Main() {
             </ul> */}
 
             <ContactCard 
-            name="Miss.Peace" 
-            imgUrl={require("../images/Final year.jpg")}
-            email="peace@gmail.com" 
-            phone="(256) 7550987865" />
+              contact = {{
+                name:"Miss.Peace" ,
+                imgUrl:require("../images/Final year.jpg"),
+                email:"peace@gmail.com" ,
+                phone:"(256) 7550987865"
+              }}
+            />
             <ContactCard 
-            name="Mr.Kiryowa" 
-            imgUrl={require("../images/Final year.jpg")}
-            email="franciskiryowa68@gmail.com" 
-            phone="(256) 700162509" />
+            contact = {{
+                name:"Mr.Kiryowa" ,
+                imgUrl:require("../images/Final year.jpg"),
+                email:"franciskiryowa68@gmail.com",
+                phone:"(256) 700162509"
+              }}
+             />
             <ContactCard 
-            name="Mr. Kasumba" 
-            imgUrl={require("../images/Final year.jpg")}            
-            email="kasumba@gmail.com" 
-            phone="(256) 704578976" />
+             contact = {{
+                name:"Mr. Kasumba",
+                imgUrl:require("../images/Final year.jpg"),            
+                email:"kasumba@gmail.com", 
+                phone:"(256) 704578976"
+              }}
+           />
             <ContactCard 
-            name="Mr.Kintu" 
-            imgUrl={require("../images/Final year.jpg")}            
-            email="kintu@gmail.com" 
-            phone="(256) 75502439" />
+              contact = {{
+                name:"Mr.Kintu",
+                imgUrl:require("../images/Final year.jpg"),         
+                email:"kintu@gmail.com",
+                phone:"(256) 75502439"
+              }}
+            />
         </main>
 
     )

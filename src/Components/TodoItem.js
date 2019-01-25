@@ -9,7 +9,7 @@ function TodoItem(props) {
                <tr>
                     <td>
                         <input type="checkbox" onChange={
-                            () => console.log('checked')
+                            () => props.handleChange(props.id)
                         } checked={props.completed ? true : false} />
                     </td>
                     <td>

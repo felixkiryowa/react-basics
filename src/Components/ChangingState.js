@@ -4,7 +4,8 @@ class ChangingState extends React.Component {
     constructor() {
         super()
         this.state = {
-            count: 0
+            count: 0,
+            game:'Incrementing a value'
         }
 
         // Bind the method to the context of this class
@@ -17,7 +18,8 @@ class ChangingState extends React.Component {
     //  })
         this.setState((previousValue) => {
             return {
-                count: previousValue.count + 1
+                count: previousValue.count + 1,
+                game:'great game!!!'
             }
         })
     }
@@ -26,6 +28,7 @@ class ChangingState extends React.Component {
         return (
             <div>
                 <h1>{this.state.count}</h1>
+                <h5>{this.state.game}</h5>
                 <button onClick={
                     this.handleClick
                 }>Change!</button>

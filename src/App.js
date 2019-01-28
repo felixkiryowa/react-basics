@@ -8,14 +8,16 @@ import './App.css';
 // import HandlingEvents from './Components/HandlingEvents';
 // import ChangingState from './Components/ChangingState';
 // import ConditionalRendering from './Components/ConditionalRendering';
-import ConditionalRenderingPart2 from './Components/ConditionalRenderingPart2';
+// import ConditionalRenderingPart2 from './Components/ConditionalRenderingPart2';
+// import FetchApi from './Components/FetchApi';
+import Forms from './Components/Forms';
 
 class App extends Component {
   
   render() {
     return (
       <div className="App">
-         <ConditionalRenderingPart2 />
+         <Forms/>
       </div>
     );
   }

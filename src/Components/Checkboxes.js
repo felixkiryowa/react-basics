@@ -25,20 +25,20 @@ class App extends React.Component {
 
 
     // Intoduced
-    static getDerivedStateFromProps(props, state) {
-        // return the new, updated state based upon the props
-        // https://reactjs.org/docs/react-component.html#static-getderivedstatefromprops
-        // https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state
-    }
+    // static getDerivedStateFromProps(props, state) {
+    //     // return the new, updated state based upon the props
+    //     // https://reactjs.org/docs/react-component.html#static-getderivedstatefromprops
+    //     // https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state
+    // }
 
     // second method
-    getSnapshotBeforeUpdate() {
-        // create a backup of the current way things are
-    }
+    // getSnapshotBeforeUpdate() {
+    //     // create a backup of the current way things are
+    // }
  
-    componentDidMount () {
-        // GET data that i need to correctly display
-    }
+    // componentDidMount () {
+    //     // GET data that i need to correctly display
+    // }
 
     // componentWillReceiveProps() {
         //   removed
@@ -53,16 +53,16 @@ class App extends React.Component {
     //  }
 
     
-    UNSAFE_componentWillReceiveProps(nextProps) {
-        if (nextProps.whatever !== this.props.whatever) {
-            // do something important here
-        }
-    }
+    // UNSAFE_componentWillReceiveProps(nextProps) {
+    //     if (nextProps.whatever !== this.props.whatever) {
+    //         // do something important here
+    //     }
+    // }
 
-    shouldComponentUpdate(nextProps, nextState) {
-        // return true if want it to update
-        // return false if not
-    }
+    // shouldComponentUpdate(nextProps, nextState) {
+    //     // return true if want it to update
+    //     // return false if not
+    // }
 
     componentWillUnmount ()  {
         // Called immediately before a component is destroyed. Perform any necessary cleanup 

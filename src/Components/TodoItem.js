@@ -2,6 +2,12 @@ import React from 'react';
 
 
 function TodoItem(props) {
+
+    const completedStyle = {
+        fontStyle:"italic",
+        color:"green",
+        textDecoration:"line-through"
+    }
    return (
     <div className="todo-item">
         <table style={{width:"200px"}}>
@@ -13,7 +19,7 @@ function TodoItem(props) {
                         } checked={props.completed ? true : false} />
                     </td>
                     <td>
-                    <p>{props.todo_detail}</p>
+                    <p style={props.completed? completedStyle:null}>{props.todo_detail}</p>
                     </td>
               </tr>
            </tbody>

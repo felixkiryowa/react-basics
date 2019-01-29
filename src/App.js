@@ -10,14 +10,15 @@ import './App.css';
 // import ConditionalRendering from './Components/ConditionalRendering';
 // import ConditionalRenderingPart2 from './Components/ConditionalRenderingPart2';
 // import FetchApi from './Components/FetchApi';
-import Forms from './Components/Forms';
+// import Forms from './Components/Forms';
+import Forms2 from './Components/Forms2';
 
 class App extends Component {
   
   render() {
     return (
       <div className="App">
-         <Forms/>
+         <Forms2/>
       </div>
     );
   }
